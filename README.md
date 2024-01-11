@@ -1,55 +1,111 @@
-Here is a Github README.md file converted from the CST-339 project overview document:
-
 # CST-339 Spring Boot N-Layer Application
 
-## Introduction
+**General Requirements:**
+1. Implement a user registration module and a login module.
+2. Use an N-Layer architecture with distinct presentation, business services, and persistence components.
+3. Adhere to best practices in exception and error handling, as informed by lectures, readings, or peer reviews.
 
-In this course, we are designing and building an enterprise-class N-Layer application using the Spring Boot framework. We have freedom in choosing the application domain, such as an ecommerce site, customer management system, blog site, etc.
+**Presentation Layer:**
+- Spring MVC for Views, Models, and Controllers.
+- Spring Core for Business and Data Services.
+- Spring Data JDBC for Persistence.
+- Spring REST Services for APIs.
+- Bootstrap for Responsive Design.
+- Spring Boot Embedded Tomcat (as a JAR).
+- MySQL for the Relational Database.
 
-The application follows specific technical and functional requirements:
+**Specific Pages:**
+- A page listing all "products" in a tabular report.
+- A page for creating a new "product."
+- A page for displaying details of a "product."
+- A page for updating an existing "product."
+- A page for deleting an existing "product."
 
-- Implements user registration and login
-- N-Layer architecture separating presentation, services, and data layers 
-- Industry best practices for exception handling
-- Spring MVC presentation layer with Thymeleaf templates
-- Data validation on form fields
-- Responsive UI with Bootstrap
-- Business logic implemented as Spring Services
-- Implements CRUD operations on core business entities
-- Relational database (MySQL, PostgreSQL) with Spring Data JDBC 
-- Spring Beans and dependency injection
-- Secured app with Spring Security and form login  
-- Secured REST APIs with basic auth
+**Application Features:**
+- Entirely Spring MVC compliant pages using Thymeleaf templates.
+- Data validation for all form data entry fields.
+- Responsive design using Bootstrap.
+- No business logic/rules in Spring MVC views, models, or controllers.
+- Implement all CRUD methods for the business domain.
 
-## Project Milestones
+**Database and Persistence:**
+- Use of relational database (MySQL or PostgreSQL).
+- Potential porting to MongoDB post-Topic 5 with instructor's permission.
+- Database access via Spring JDBC or Spring Data JDBC.
 
-The project will be built iteratively over 8 milestones:
+**Business and Persistence Services:**
+- Implementation using Spring Beans.
+- Declarative Spring annotations in all components.
+- Dependency injection (DI) for all models, controllers, services, and resources.
 
-**Milestone 1:** Project proposal, draft sitemap and division of work  
+**Deployment and Security:**
+- Deployment using Spring Boot and embedded Tomcat (version 9.x or later).
+- Restricted access to secure pages without login.
+- Spring Security for form-based authentication and database security.
+- Secured APIs with Spring Security and Basic HTTP Authentication.
 
-**Milestone 2:** Spring MVC implementation of registration, login, main layout, responsive UI 
-   
-**Milestone 3:** Add product creation module with Spring Core 
+**Documentation:**
+- Comprehensive JavaDoc format documentation for all classes.
 
-**Milestone 4:** Refactor to integrate Spring Data JDBC
-   
-**Milestone 5:** Add product read, update and delete modules
+---
 
-**Milestone 6:** Add Spring Security for form login and page authorization
+**Milestone 1:**
+- Project Proposal
+- Draft Sitemap
+- Draft Division of Work across the team
 
-**Milestone 7:** Implement REST APIs for products 
- 
-**Milestone 8:** Complete documentation and presentations
+**Milestone 2:**
+- Main Application Module (using Spring MVC)
+- Registration Module (using Spring MVC) without a database
+- Login Module (using Spring MVC) without a database
+- Responsive Design (using Bootstrap Framework)
+- Page Layouts using Thymeleaf Layouts
+- Design Report
+- Screencast running on local development environment
 
-## Getting Started
+**Milestone 3:**
+- Product Creation Module (using Spring MVC and Spring Core)
+  - Registration and Login Modules refactored to use Spring Beans and IoC without a database
+- Updated Design Report
+- Screencast running on local development environment
 
-To run this Spring Boot application locally:
+**Milestone 4:**
+- Refactoring:
+  - Registration and Login Modules refactored to use Spring JDBC or Spring Data JDBC
+  - Product Creation Module refactored to use Spring JDBC or Spring Data JDBC
+- Built as a JAR file using Maven
+- Updated Design Report
+- Screencast running on local development environment
 
-1. Clone this repo
-2. Configure application.properties 
-3. Run using ./mvnw spring-boot:run
+**Milestone 5:**
+- Product Display Module (using Spring MVC, Spring JDBC or Spring Data JDBC)
+- Product Update/Delete Modules (using Spring MVC, Spring JDBC or Spring Data JDBC)
+- Updated Design Report
+- Screencast running on local development environment
 
-The application will start on port 8080.
+**Milestone 6:**
+- Refactored Login Module (using Spring Security)
+  - Use Form-based authentication with a database
+  - All pages, except Login and Registration Modules, secured with Spring Security
+- Updated Design Report
+- Screencast running on local development environment
+
+**Milestone 7:**
+- REST APIs:
+  - Design using Microsoft Word template or Swagger
+  - API 1: Return all products
+  - API 2: Return a specific product
+  - All APIs secured using Spring Security and Basic HTTP Authentication with a database
+- Design and Code Cleanup
+- Updated Design Report
+
+**Milestone 8:**
+- JavaDoc Generation
+- Final Application Code
+- Final Project Presentation
+- Final Design Report
+
+--- 
 
 ## Contributing
 
