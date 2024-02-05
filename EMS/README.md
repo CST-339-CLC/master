@@ -1,4 +1,4 @@
-# EMS (Event Management System)
+# EMS (Event Management System) - Registration module
 
 This is a Spring Boot application that provides a user registration module. It uses Thymeleaf for dynamic page
 generation, Spring MVC for handling HTTP requests, and JPA for object-relational mapping.
