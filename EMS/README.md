@@ -1,6 +1,6 @@
-# My Spring App
+# EMS (Event Management System)
 
-This is a Spring Boot application that provides a user registration framework. It uses Thymeleaf for dynamic page
+This is a Spring Boot application that provides a user registration module. It uses Thymeleaf for dynamic page
 generation, Spring MVC for handling HTTP requests, and JPA for object-relational mapping.
 
 ## Project Structure
@@ -8,7 +8,7 @@ generation, Spring MVC for handling HTTP requests, and JPA for object-relational
 The project has the following structure:
 
 ```
-my-spring-app
+EMS
 ├── src
 │   ├── main
 │   │   ├── java
