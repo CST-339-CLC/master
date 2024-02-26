@@ -1,8 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d764d7be-9812-4ee5-a468-250e7c66d440" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proposal.md" beforeDir="false" afterPath="$PROJECT_DIR$/Proposal.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Read_me.md" beforeDir="false" afterPath="$PROJECT_DIR$/Read_me.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Thymeleaf_Project/Thymeleaf_Project/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Thymeleaf_Project/Thymeleaf_Project/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Thymeleaf_Project/Thymeleaf_Project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Thymeleaf_Project/Thymeleaf_Project/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Thymeleaf_Project/Thymeleaf_Project/src/main/java/com/project/springboot/Main_App_Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Thymeleaf_Project/Thymeleaf_Project/src/main/java/com/project/springboot/Main_App_Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Thymeleaf_Project/Thymeleaf_Project/src/main/java/com/project/springboot/ThymeleafProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Thymeleaf_Project/Thymeleaf_Project/src/main/java/com/project/springboot/ThymeleafProjectApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Thymeleaf_Project/Thymeleaf_Project/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Thymeleaf_Project/Thymeleaf_Project/src/main/resources/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Thymeleaf_Project/Thymeleaf_Project/src/test/java/com/project/springboot/ThymeleafProjectApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Thymeleaf_Project/Thymeleaf_Project/src/test/java/com/project/springboot/ThymeleafProjectApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Thymeleaf_Project/Thymeleaf_Project/target/classes/META-INF/maven/net.Test/Thymeleaf_Project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Thymeleaf_Project/Thymeleaf_Project/target/classes/META-INF/maven/net.Test/Thymeleaf_Project/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Thymeleaf_Project/Thymeleaf_Project/target/classes/static/mainapp.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Thymeleaf_Project/Thymeleaf_Project/target/classes/static/mainapp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Thymeleaf_Project/Thymeleaf_Project/target/classes/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Thymeleaf_Project/Thymeleaf_Project/target/classes/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gcu/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gcu/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gcu/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gcu/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gcu/model/LoginModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gcu/model/LoginModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gcu/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gcu/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/afterLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/afterLogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/net.Test/Thymeleaf_Project/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/net.Test/Thymeleaf_Project/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/springboot/Main_App_Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/springboot/ThymeleafProjectApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/mainapp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/project/springboot/ThymeleafProjectApplicationTests.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="jdkForImporter" value="temurin-17" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2cuy7mbi70bWPDrhJ6NqrACqJoy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="flattenModules" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/GitHub/CST-339-CLC/master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.gcu.service" />
+      <recent name="com.gcu.model" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="my-spring-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gcu.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-temurin-11.0.22-4caba194b151-d1169b8f" />
+        <option value="jdk-17.0.10-temurin-17.0.10-4caba194b151-b3785831" />
+        <option value="jdk-17.0.9-temurin-17.0.9-f644763e9732-636ea113" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d764d7be-9812-4ee5-a468-250e7c66d440" name="Changes" comment="" />
+      <created>1708975593793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708975593793</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
 </project>

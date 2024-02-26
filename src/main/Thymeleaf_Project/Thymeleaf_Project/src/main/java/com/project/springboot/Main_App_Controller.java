@@ -5,13 +5,11 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class Main_App_Controller 
-{
-	@GetMapping("/main")
-	public String hello(Model model)
-	{
-		model.addAttribute("message", "main application");
-		return "main";
-		
-	}
+public class Main_App_Controller {
+    @GetMapping("/main")
+    public String hello(Model model) {
+        model.addAttribute("message", "main application");
+        return "main";
+
+    }
 }

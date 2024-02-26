@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:layout="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://www.thymeleaf.org">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>TBD (should be home page)</title>
@@ -17,7 +17,7 @@
         </thead>
         <tbody>
         <tr th:if="${#lists.isEmpty(orders)}">
-            <td colspan="4" style="text-align:center">No Orders Available</td>
+            <td style="text-align:center" colspan="4">No Orders Available</td>
         </tr>
         <tr th:each="order : ${orders}">
             <td style="text-align:center"><h5 th:text="${order.orderNo}">01</h5></td>
